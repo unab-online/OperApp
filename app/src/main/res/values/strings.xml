@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OperApp</string>
+    <string name="textTitulo">Operaciones</string>
+    <string name="ayudaNum1">Número 1</string>
+    <string name="ayudaNum2">Número 2</string>
+    <string name="textSumar">Sumar</string>
+    <string name="textRestar">Restar</string>
+    <string name="textMultiplicar">Multiplicar</string>
+    <string name="textDividir">Dividir</string>
+    <string name="textResultado">Resultado:</string>
+</resources>
