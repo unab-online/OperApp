@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OperApp</string>
+    <string name="txt_titulo">Operaciones</string>
+    <string name="ayuda_num1">Número 1</string>
+    <string name="ayuda_num2">Número 2</string>
+    <string name="btn_sumar">Sumar</string>
+    <string name="btn_restar">Restar</string>
+    <string name="btn_multiplicar">Multiplicar</string>
+    <string name="btn_dividir">Dividir</string>
+    <string name="txt_resultado">Resultado</string>
+    <string name="resultado">0</string>
+    <string-array name="operaciones">
+        <item>Sumar</item>
+        <item>Restar</item>
+        <item>Multiplicar</item>
+        <item>Dividir</item>
+    </string-array>
+    <string name="btn_operar">Operar</string>
+</resources>

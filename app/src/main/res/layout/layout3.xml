@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/unab" />
+
+    <TextView
+        android:id="@+id/txt_operaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_titulo" />
+
+    <EditText
+        android:id="@+id/txt_num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ayuda_num1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txt_num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ayuda_num2"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/operaciones" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_resultado" />
+
+    <TextView
+        android:id="@+id/txt_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado" />
+
+</LinearLayout>
