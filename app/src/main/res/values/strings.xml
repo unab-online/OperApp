@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OperApp</string>
+    <string name="first_number">Primer numero</string>
+    <string name="second_number">Segundo numero</string>
+</resources>
